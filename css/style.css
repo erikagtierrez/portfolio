@@ -5,9 +5,9 @@
  * Thanks for MaterializeCSS.com
  */
 
-.default_color{background-color: #2196F3 !important}
+.default_color{background-color: #673AB7 !important}
 
-.default_color_text{color: #2196F3 !important}
+.default_color_text{color: #673AB7 !important}
 
 .icon-block {
     padding: 0 15px;
@@ -20,7 +20,7 @@
     min-height: 632px;
     max-height: 864px;
     position: relative;
-    background-color: #2196F3;
+    background-color: #673AB7;
 }
 
 #nav_f{
@@ -35,6 +35,10 @@
     color:white;
 }
 
+.logoimg{
+    width: 18%;
+    padding: 2px;
+}
 .brand-logo{
     position: absolute;
     color: #fff;
@@ -48,20 +52,20 @@
 
 .text_h2 {font-weight: 100;margin-bottom: 4%; line-height: 4.5rem;}
 
-.span_h2 {font-weight: 300;color: #2196F3;}
+.span_h2 {font-weight: 300;color: #673AB7;}
 
-.text_b{color: #2196F3;}
+.text_b{color: #673AB7;}
 
 .in{font-weight: 400 !important; font-style: normal !important;}
 
 .promo i {
-    color: #2196F3;
+    color: #673AB7;
     font-size: 7rem;
     display: block;
 }
-.card-content a {color: #2196F3;}
+.card-content a {color: #673AB7;}
 
-.card-content a:hover {color: #2196F3;}
+.card-content a:hover {color: #673AB7;}
 
 #work, #team{background: rgb(247, 247, 247);}
 
@@ -112,7 +116,7 @@ nav ul a {
 }
 
 .cd-headline.type .cd-words-wrapper.selected b {
-    color: #2196F3;
+    color: #673AB7;
 }
 
 .cd-headline.type b {
@@ -263,3 +267,9 @@ nav a.button-collapse {
 footer.page-footer {
     margin-top: 0px !important;
 }
+
+ #map {
+        height: 280px;
+        width: 100%;
+        padding: 5px;
+       }
