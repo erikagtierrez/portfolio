@@ -258,7 +258,6 @@ nav ul a {
 
 @media only screen and (max-width: 1200px) {
     .text_h {
-        padding: 20% 0;
         font-size: 5em;
         font-weight: 100;
         color: white;
