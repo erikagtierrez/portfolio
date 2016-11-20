@@ -267,7 +267,6 @@ nav ul a {
 
 @media only screen and (max-width: 900px) {
     .text_h {
-        padding: 25% 0;
         font-size: 4.9em;
         font-weight: 100;
         color: white;
@@ -276,7 +275,6 @@ nav ul a {
 
 @media only screen and (max-width:768px) {
     .text_h {
-        padding: 35% 0;
         font-size: 4em;
         font-weight: 100;
         color: white;
@@ -285,7 +283,6 @@ nav ul a {
 
 @media only screen and (max-width: 480px) {
     .text_h {
-        padding: 35% 0;
         font-size: 4em;
         font-weight: 100;
         color: white;
@@ -294,7 +291,6 @@ nav ul a {
 
 @media only screen and (max-width: 350px) {
     .text_h {
-        padding: 35% 0;
         font-size: 3em;
         font-weight: 100;
         color: white;
