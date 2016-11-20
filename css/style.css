@@ -39,6 +39,10 @@
     width: 18%;
     padding: 2px;
 }
+@font-face {
+    font-family: CaviarDreams;
+    src: url(fonts/FashionFetishLight.ttf);
+}
 .brand-logo{
     position: absolute;
     color: #fff;
@@ -47,6 +51,8 @@
     font-style: normal;
     font-weight: 100;
     padding: 0;
+    font-family: "CaviarDreams";
+    font-weight: bold;
     letter-spacing: 7px;
 }
 
