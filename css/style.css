@@ -256,10 +256,46 @@ nav ul a {
     margin:-100px 0 0 -100px; /* is width and height divided by two */
 }
 
+@media only screen and (max-width: 1200px) {
+    .text_h {
+        padding: 20% 0;
+        font-size: 5em;
+        font-weight: 100;
+        color: white;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .text_h {
+        padding: 25% 0;
+        font-size: 4.9em;
+        font-weight: 100;
+        color: white;
+    }
+}
+
+@media only screen and (max-width:768px) {
+    .text_h {
+        padding: 35% 0;
+        font-size: 4em;
+        font-weight: 100;
+        color: white;
+    }
+}
+
 @media only screen and (max-width: 480px) {
     .text_h {
-        padding: 4% 0;
-        font-size: 5em;
+        padding: 45% 0;
+        font-size: 4em;
+        font-weight: 100;
+        color: white;
+    }
+}
+
+@media only screen and (max-width: 350px) {
+    .text_h {
+        padding: 50% 0;
+        font-size: 3em;
         font-weight: 100;
         color: white;
     }
