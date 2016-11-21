@@ -271,7 +271,6 @@
 	}); // end of document ready
 })(jQuery); // end of jQuery name space
 
-google.maps.event.addDomListener(window, 'load', initMap);
 
 function initMap() {
 
