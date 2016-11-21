@@ -446,7 +446,9 @@ function initMap() {
 		var mapOptions = {
 			zoom: 3,
 			center: new google.maps.LatLng(10.151797, -67.997658),
-			styles: styleArray
+			styles: styleArray,
+			scrollwheel: false,
+   			disableDefaultUI: true
 		};
 
 		var map = new google.maps.Map(document.getElementById('map'),
