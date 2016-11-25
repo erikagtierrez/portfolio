@@ -13,7 +13,10 @@
     padding: 0 15px;
 }
 
-#intro, #work, #team {padding-top: 4rem;}
+#intro, #work, #team {
+    padding-top: 4rem;
+    padding-bottom: 6rem;
+    }
 
 
 #index-banner {
@@ -28,6 +31,10 @@
     -webkit-box-shadow:none !important;
 }
 
+.person-img img{
+    width: 100%;
+    height: 100%;
+}
 .pad-left{
     margin-left: 40px;
     margin-right: 40px;
@@ -60,6 +67,93 @@
     font-weight: bold;
     letter-spacing: 7px;
 }
+
+nav .brand-logo{
+    padding: 0.2%;    
+}
+
+
+.about-inner {
+    margin: 60px 0;
+}
+
+.person-about .title {
+    margin-bottom: 15px;
+}
+
+.about-subtitle {
+  font-size: 24px;
+  font-weight: 600;
+  margin-left: 25px;
+  margin-bottom: 30px;
+  text-transform: uppercase;
+}
+
+.person-about .subtitle {
+    font-weight: 100;
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+
+.person-img img {
+    border: 8px solid #fff;
+
+}
+
+.person-about p {
+  color: #727272;
+  font-size: 14px;
+  line-height: 28px;
+  margin-bottom: 35px;
+}
+
+.person-info h5 {
+  border-bottom: 1px solid #eeeeee;
+  color: #727272;
+  font-size: 14px;
+  margin-bottom: 12px;
+  margin-left: 25px;
+  padding-bottom: 12px;
+}
+
+.person-info h5 span {
+  display: inline-block;
+  min-width: 70px;
+}
+
+.person-about > a.btn-large {
+    background-color: #fff;
+}
+
+.person-about > a.btn-large {
+    font-size: 14px;
+}
+
+.person-about > a.btn-large,
+.home-content > a.btn-large {
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.person-about > a.btn-large i {
+    font-size: 26px;
+    margin-right: 8px;
+}
+
+.about-social {
+  margin: 25px 0 0 25px;
+  
+}
+
+.about-social ul li {
+  display: inline-block;
+  margin-right: 8px;
+}
+
+.about-social ul li a i{
+   font-size: 14px;
+}
+
 
 .text_h2 {font-weight: 100;margin-bottom: 4%; line-height: 4.5rem;}
 
@@ -221,13 +315,14 @@ nav ul a {
 
 @media only screen and (min-width: 1200px){
     .flow-text {
-        font-size: 1.5rem;
+        font-size: 1.5rem;        
     }
   
 }
 
 @media only screen and (max-width: 992px){
     nav .brand-logo {
+        padding: 0.6%;
         left: 60%;
     }
 }
@@ -235,12 +330,14 @@ nav ul a {
 @media screen and (max-width: 500px){ 
      nav .brand-logo{
        font-size: 1.3em;
+        padding: 0.5%;
     }  
 }
 
 @media screen and (max-width: 397px){
      nav .brand-logo{
        font-size: 1.1em;
+        padding: 1.5%;
     }  
 }
 
@@ -336,7 +433,15 @@ nav a.button-collapse {
 }
 
 footer.page-footer {
-    margin-top: 0px !important;
+    margin-top: 30px !important;
+}
+
+footer.page-footer {
+    padding-top: 50px;
+}
+
+#work, #team {
+    background: white; 
 }
 
  #map {
@@ -344,3 +449,134 @@ footer.page-footer {
         width: 100%;
         padding: 5px;
        }
+
+       #skill {
+    background: url('../../images/skills-bg.jpg') no-repeat scroll center center / cover;
+}
+
+#skill .sec-overlay {
+    background: rgba(255,255,255, .92);
+    height: 100%;
+    width: 100%;
+    padding-top: 60px;
+    padding-bottom: 100px; 
+}
+
+.skill-inner {
+    margin-top: 70px;
+}
+
+.skill-left {
+    margin-top: 136px;
+}
+
+.skill-left p {
+    line-height: 30px;
+}
+
+.skill-graph {
+    margin-bottom: 0px;
+}
+
+.skill-graph .single-skill {
+    /*float: left;*/
+    height: 490px;
+    width: 60px;
+    position: relative;
+}
+
+.after-li {
+    position: absolute;
+    width: 100%;
+    bottom: 10px;
+    height: 350px;
+}
+
+.singel-hr {
+    position: relative;
+    height: 100%;
+    padding-bottom: 50px;
+}
+
+.skill-title,
+.skill-count {
+    width: 100%;
+    display: block;
+    text-align: center;
+    font-weight: 400;
+    position: absolute;
+}
+
+.skill-title {
+    font-size: 13px;
+    line-height: 15px;
+}
+
+.skill-count {
+    font-size: 15px;
+}
+
+.skill-title {
+    top: -100px;
+}
+.skill-count {
+    bottom: 0;
+}
+
+.singel-hr-inner {
+    position: absolute;
+    width: 100%;
+    bottom: 33px;
+    border-radius: 2px;
+    height: 0px;
+    -webkit-transition: all 1.2s;
+            transition: all 1.2s;
+    -webkit-transition-timing-function: cubic-bezier(0.7,0,0.3,1);
+            transition-timing-function: cubic-bezier(0.7,0,0.3,1);
+}
+
+.skill-visiable {
+    position: relative;
+}
+
+.hr-wrap {
+    height: 73px;
+    width: 1px;
+    position: absolute;
+    top: -73px;
+    left: 50%;
+}
+
+.hrc:after {
+    content: '';
+    width: 7px;
+    height: 7px;
+    position: absolute;
+    border-radius: 50%;
+    top: 0;
+    left: -3px;
+}
+
+.root-sec {
+    position: relative;
+}
+
+.btn-wrapp {
+    position: absolute;
+    right:1.4%;
+    top:55.8%;
+}
+.btn-wrapp a {
+    display: block;
+    margin-bottom: 20px;
+}
+
+.btn-wrapp a:last-child {
+    margin-bottom: 0;
+}
+
+.skill-wrap .btn-wrapp {
+    bottom: 7.5%;
+    top: auto;
+    right: 4%;
+}
