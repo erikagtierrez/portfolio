@@ -13,6 +13,10 @@
     padding: 0 15px;
 }
 
+.white-t{
+   color:white;
+}
+
 #intro, #work, #team {
     padding-top: 4rem;
     padding-bottom: 6rem;
@@ -433,7 +437,7 @@ nav a.button-collapse {
 }
 
 footer.page-footer {
-    margin-top: 30px !important;
+    margin-top: 0px !important;
 }
 
 footer.page-footer {
@@ -666,4 +670,7 @@ input[type=text]:focus:not([readonly]), input[type=password]:focus:not([readonly
     border-bottom: 1px solid rgba(255,255,255,0.9);
     box-shadow: 0 1px 0 0 rgba(255,255,255,0.9);
 
+}
+.little{
+    width: 10%;
 }
